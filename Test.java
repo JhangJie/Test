@@ -92,6 +92,11 @@ class datastruct{
 		link.addnode(25);
 		link.printallnode();
 		
+		System.out.print("---Add node\n");
+		link.addnode(23);
+		link.addnode(25);
+		link.printallnode();
+		
 		System.out.print("---delete node\n");
 		link.deletenode(25);
 		link.deletenode(22);
