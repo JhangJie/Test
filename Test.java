@@ -108,10 +108,7 @@ class datastruct{
 		link.deletenode(22);
 		link.printallnode();
 		
-		System.out.print("---delete node\n");
-		link.deletenode(25);
-		link.deletenode(22);
-		link.printallnode();
+		System.out.print("測試唷\n");
 		
 	}
 }
