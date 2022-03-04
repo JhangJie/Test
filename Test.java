@@ -3,21 +3,10 @@ class datastruct{
 		private int age;
 		private testnode next;
 		
-		public void setdata(int age){
-			this.age = age;
-		}
-		
-		public int getdata(){
-			return age;
-		}
-		
-		public void setnext(testnode ne){
-			next = ne;
-		}
-		
-		public testnode getnext(){
-			return next;
-		}
+		public void setdata(int age){ this.age = age; }
+		public int getdata(){ return age; }
+		public void setnext(testnode ne){ next = ne; }
+		public testnode getnext(){ return next; }
 	}
 	
 	private static testnode head;
@@ -101,11 +90,6 @@ class datastruct{
 		System.out.print("---Add node\n");
 		link.addnode(23);
 		link.addnode(25);
-		link.printallnode();
-		
-		System.out.print("---delete node\n");
-		link.deletenode(25);
-		link.deletenode(22);
 		link.printallnode();
 		
 		System.out.print("---delete node\n");
