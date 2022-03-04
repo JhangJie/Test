@@ -96,12 +96,6 @@ class datastruct{
 		link.createnode(6);
 		link.printallnode();
 		
-		System.out.print("(3)Linked list\n");
-		datastruct link = new datastruct();
-		link.linked_list();
-		link.createnode(6);
-		link.printallnode();
-		
 		System.out.print("---Add node\n");
 		link.addnode(23);
 		link.addnode(25);

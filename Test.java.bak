@@ -67,7 +67,7 @@ class datastruct{
 		}
 	}
 	
-	public void printallnode(){
+	public void Tprintallnode(){
 		testnode node = head;
 		while(true){
 			System.out.print("age:" + node.getdata() + " node:" + node + "\n");
@@ -89,6 +89,12 @@ class datastruct{
 		System.out.print("(2)count string length\n");
 		String strt = "a2a2sd3af654w65f1a6";
 		System.out.print("string length=" + strt.length() + "\n");
+		
+		System.out.print("(3)Linked list\n");
+		datastruct link = new datastruct();
+		link.linked_list();
+		link.createnode(6);
+		link.printallnode();
 		
 		System.out.print("(3)Linked list\n");
 		datastruct link = new datastruct();
