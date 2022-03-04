@@ -106,5 +106,7 @@ class datastruct{
 		link.deletenode(22);
 		link.printallnode();
 		
+		System.out.print("123\n");
+		
 	}
 }
