@@ -78,6 +78,15 @@ class datastruct{
 		}
 	}
 	
+	public void Tprintallnode(){
+		testnode node = head;
+		while(true){
+			System.out.print("age:" + node.getdata() + " node:" + node + "\n");
+			node = node.getnext();
+			if(node.getnext() == null) break;
+		}
+	}
+	
 	public static void main(String[] args){
 		System.out.print("(1)string reverse\n");
 		String str = "123456saww3";
@@ -107,8 +116,6 @@ class datastruct{
 		link.deletenode(25);
 		link.deletenode(22);
 		link.printallnode();
-		
-		System.out.print("測試唷\n");
 		
 	}
 }
