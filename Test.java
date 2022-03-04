@@ -57,7 +57,6 @@ class datastruct{
 	
 	public void deletenode(int find){
 		testnode nextnode = head;
-		testnode nextnode = head;
 		testnode buf = new testnode();
 		while((nextnode.getnext() != null) && (nextnode.getdata() != find)){
 			buf = nextnode;
@@ -109,8 +108,10 @@ class datastruct{
 		link.deletenode(22);
 		link.printallnode();
 		
-		
-		
+		System.out.print("---delete node\n");
+		link.deletenode(25);
+		link.deletenode(22);
+		link.printallnode();
 		
 	}
 }
